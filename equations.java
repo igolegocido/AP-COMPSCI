@@ -40,11 +40,11 @@ class equations{
         double a1 = 1.0; //value of the first number of the arithemtic series
         double r = 1.0; //amount of increase between every number of an arthmetic series
         double k = 5; //number of values in the arithemtic series
-        double ak = a1+((k-1)*interval); //value of the last number in the arithmetic series
+        double ak = a1+((k-1)*r); //value of the last number in the arithmetic series
         double sum = k/2*(a1 + ak); //sum of all values in the arithmetic series 
         System.out.println("SUM OF AN ARITHMETIC SEQUENCE");
         System.out.println("The sum of the first "+(int)k+" terms of an arithemetic series that starts with "+ a1);
-        System.out.println("and increases by " +interval +" is " +sum);
+        System.out.println("and increases by " + r +" is " +sum);
         System.out.println(); //add blank line
         
         //Sum of a finite geometric series
