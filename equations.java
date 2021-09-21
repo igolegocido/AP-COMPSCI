@@ -38,7 +38,7 @@ class equations{
         
         //Sum of an arithmetic series
         double a1 = 1.0; //value of the first number of the arithemtic series
-        double interval = 1.0; //amount of increase between every number of an arthmetic series
+        double r = 1.0; //amount of increase between every number of an arthmetic series
         double k = 5; //number of values in the arithemtic series
         double ak = a1+((k-1)*interval); //value of the last number in the arithmetic series
         double sum = k/2*(a1 + ak); //sum of all values in the arithmetic series 
@@ -48,7 +48,7 @@ class equations{
         System.out.println(); //add blank line
         
         //Sum of a finite geometric series
-        double r = 2.0; //value of the common ratio/rate of increase
+        r = 2.0; //value of the common ratio/rate of increase
         k = 3; //number of values in the finite geometric series
         double g = 3.0; //value of the first number in the finite geometric series
         sum = g*((1-(Math.pow(r,k)))/(1-r)); //sum of all values of a finite geometric series
