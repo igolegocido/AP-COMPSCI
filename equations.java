@@ -44,7 +44,7 @@ class equations{
         double sum = k/2*(a1 + ak); //sum of all values in the arithmetic series 
         System.out.println("SUM OF AN ARITHMETIC SEQUENCE");
         System.out.println("The sum of the first "+(int)k+" terms of an arithemetic series that starts with "+ a1);
-        System.out.println("and increases by " + r +" is " +sum);
+        System.out.println("and increases by " + r +" is " +sum); //change lines
         System.out.println(); //add blank line
         
         //Sum of a finite geometric series
@@ -54,6 +54,6 @@ class equations{
         sum = g*((1-(Math.pow(r,k)))/(1-r)); //sum of all values of a finite geometric series
         System.out.println("SUM OF A FINITE GEOMETRIC SERIES");
         System.out.println("The sum of the first "+(int)k+" terms of a finite geometric series that starts with "+g);
-        System.out.println("and increases by a rate of "+r+" is "+sum);
+        System.out.println("and increases by a rate of "+r+" is "+sum); //change lines
     }
 }
